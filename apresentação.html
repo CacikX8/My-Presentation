@@ -15,8 +15,8 @@
     <section>
         <h2>Contatos:</h2>
         <div class="contatos">
-            <a href="https://github.com/CacikX8" target="_blank"><img width="45px" height="45px" src="./images/Github.png" alt="Github"></a>
-            <a href="https://github.com/CacikX8" target="_blank" class=botão-vermelho>Github  </a>
+            <a href="https://github.com/Caique-Mendonca" target="_blank"><img width="45px" height="45px" src="./images/Github.png" alt="Github"></a>
+            <a href="https://github.com/Caique-Mendonca" target="_blank" class=botão-vermelho>Github  </a>
             <br>
             <br>
             <a href="https://instagram.com/caique.mendonca?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img width="45px" height="45px" src="./images/Instagram_logo_2022.svg" alt="Instagram"></a>
@@ -27,8 +27,8 @@
         <p>fiz uma calculadora de IMC e IAC usando Customtkinter em Python</p>
         <p>se liga no link abaixo ↆ</p>
         <div class="github-py">
-            <a href="https://github.com/CacikX8/IMC-IAC-Calculator/blob/main/IMC_TELA_TESTE.py" target="_blank"><img width="45px" height="45px" src="./images/Github.png" alt="Github"></a>
-            <a href="https://github.com/CacikX8/IMC-IAC-Calculator/blob/main/IMC_TELA_TESTE.py" class="botão-vermelho">AQUI</a>
+            <a href="https://github.com/Caique-Mendonca/IMC-IAC-Calculator/blob/main/IMC_TELA_TESTE.py" target="_blank"><img width="45px" height="45px" src="./images/Github.png" alt="Github"></a>
+            <a href="https://github.com/Caique-Mendonca/IMC-IAC-Calculator/blob/main/IMC_TELA_TESTE.py" class="botão-vermelho">AQUI</a>
         </div>
     <h2>Meu zap</h2>
     <a href="./contato.html" target="_blank"><img width="45px" height="45px" src="./images/Whatsapp.png" alt="Whatsapp"></a>
@@ -81,23 +81,23 @@
        <div>
         <label for="Nome"><strong>Nome</strong></label>
         <br>
-        <input type="text" name="Nome" id="" placeholder="Digite seu nome">
+        <input class="Feedback-input" type="text" name="Nome" id="" placeholder="Digite seu nome">
        </div>
 <br>
        <div>
         <label for="Email"><strong>Seu Email</strong></label>
         <br>
-        <input type="email" name="Email" placeholder="Digite seu Email">
+        <input class="Feedback-input" type="email" name="Email" placeholder="Digite seu Email">
        </div>
 <br>
        <div>
         <label for="mensagem"><strong>Me envie um Feedback</strong></label>
         <br>
-        <textarea type="text" name="mensagem" placeholder="Digite uma mensagem" class="Feedback"></textarea>
+        <textarea  class="Feedback-input" type="text" name="mensagem" placeholder="Digite uma mensagem" ></textarea>
        </div>
 <br>
        <div>
-        <input type="submit" name="" id="" value="Enviar">
+        <input class="enviar" type="submit" name="" id="" value="Enviar">
        </div> 
     </form>
 </section>
@@ -116,6 +116,7 @@
         border: #222 solid;
         border-radius: 4px;
         padding-left: 10px;
+
         
     }
     .contatos > a{
@@ -130,7 +131,7 @@
     }
     .componente-pc{
         background-color: cadetblue ;
-        color: #ca0e0e8f;
+        color: hsla(0, 87%, 42%, 0.561);
         padding: 2px;
         
     }
@@ -140,7 +141,7 @@
     }
 
     header{
-        background-color: aqua;
+        background-color: #4464ad;
         padding: 8px;
         border: #222 solid;
         margin: -8px;
@@ -166,14 +167,14 @@
     a:hover{
          box-shadow: 5px 7px 18px #222;
     }
-    .Feedback{
-        width: 800px
+    .Feedback-input{
+        width: 70% 
         }
 
     #mensagem-final{
         color: cadetblue;
     }
-        
+  
 </style>
 </body>
 </html>
